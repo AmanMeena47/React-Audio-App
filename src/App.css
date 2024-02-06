@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensures the body takes up the full viewport height */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.file-upload {
+  position: relative;
+  display: inline-block;
+}
+
+.file-label {
+  background-color: #1db954;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.playlist-container {
+  width: 300px;
+}
+
+.playlist-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.playlist {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.playlist li:hover {
+  background-color: #282828;
+}
+
+.active-track {
+  background-color: #1db954;
+}
+
+.play-button {
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.player-container {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.audio-player {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.control-button {
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.control-button:hover {
+  background-color: #1ed760;
+}
